@@ -12,11 +12,33 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start; /* Changed to flex-start to accommodate header */
         min-height: 100vh;
         margin: 0;
         padding: 0;
         font-family: sans-serif;
+      }
+      header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%; /* Ensure header takes full width */
+      }
+      header nav {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+      }
+      header nav a {
+        color: white;
+        margin: 0 10px;
+        text-decoration: none;
+      }
+      header nav a:hover {
+        color: #f0f4c3;
       }
       .resume-section {
         text-align: center;
@@ -25,8 +47,9 @@
         background-color: rgba(255, 255, 255, 0.1);
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         max-width: 90%;
-        display: flex; /* Enable flexbox for reordering */
-        flex-direction: column; /* Stack items vertically */
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px; /* Add margin below resume section */
       }
       .resume-section h1 {
         color: #f0f4c3;
@@ -55,16 +78,22 @@
         color: #301934;
       }
       .resume-section a {
-        margin-top: auto; /* Push the link to the bottom */
+        margin-top: auto;
       }
     </style>
 </head>
 <body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="content.html">Content</a>
+        </nav>
+    </header>
     <div class="resume-section">
-        <h1>Alvin Loupatty</h1>
+        <h1>Resume</h1>
         <img src="Alvin Loupatty's Resume.png" alt="Alvin Loupatty's Resume" class="resume-screenshot">
         <a href="Alvin Loupatty's Resume.pdf" target="_blank">Download My Resume</a>
     </div>
 </body>
 </html>
-
