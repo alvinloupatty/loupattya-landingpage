@@ -73,7 +73,7 @@ body {
     display: flex;
     justify-content: flex-start; /* Align content to the left */
     align-items: center;
-    max-width: 800px;
+    max-width: 100px;
     margin: 50px auto;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
