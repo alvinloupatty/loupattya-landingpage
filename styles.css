@@ -87,9 +87,11 @@ body {
 }
 
 .profile-image img {
-    max-width: 100%;
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 5px; /* Optional: Rounded corners */
+    width: 200px;
+    height: 200px;
+    object-fit: scale-down; /* or contain, fill, etc. */
+}
+
 }
 
 .profile-text {
