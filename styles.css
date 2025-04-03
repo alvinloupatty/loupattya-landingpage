@@ -83,7 +83,6 @@ body {
 .profile-image {
     width: 300px; /* Medium width for the image container */
     margin-right: 20px; /* Add some space between image and text */
-    text-align: right; /* Align image to the left within its container */
 }
 
 .profile-image img {
@@ -97,6 +96,7 @@ body {
 .profile-text {
     flex: 1; /* Allow text to take up remaining space */
     padding: 20px;
+    text-align: right; /* Align image to the left within its container */
 }
 
 .profile-text h1 {
