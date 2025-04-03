@@ -101,12 +101,12 @@ body {
 
 .profile-text h1 {
     font-size: 2.5em;
-    margin-bottom: 10px;
+    margin-right: 10px;
 }
 
 .profile-text h2 {
     font-size: 1.5em;
-    margin-bottom: 20px;
+    margin-right: 20px;
 }
 
 .profile-text ul {
@@ -115,5 +115,5 @@ body {
 }
 
 .profile-text li {
-    margin-bottom: 10px;
+    margin-right: 10px;
 }
