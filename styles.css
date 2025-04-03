@@ -83,7 +83,7 @@ body {
 .profile-image {
     width: 300px; /* Medium width for the image container */
     margin-right: 20px; /* Add some space between image and text */
-    text-align: left; /* Align image to the left within its container */
+    text-align: right; /* Align image to the left within its container */
 }
 
 .profile-image img {
