@@ -87,7 +87,7 @@ body {
 }
 
 .profile-image img {
-    max-width: 100%;
+    max-width: 25%;
     border-radius: 5px; /* Optional: Rounded corners */
 }
 
