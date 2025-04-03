@@ -115,5 +115,7 @@ body {
 }
 
 .profile-text li {
+    font-size: 1.2em; /* Adjust this value to make the list items bigger */
     margin-right: 10px;
+    margin-bottom: 10px; /* added margin to make the list items have space */
 }
