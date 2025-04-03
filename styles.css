@@ -82,14 +82,15 @@ body {
 }
 
 .profile-image {
-    width: 10px; /* Medium width for the image container */
+    width: 100px; /* Medium width for the image container */
+    height: 100px; //*change to your preference*/
     margin-right: 20px; /* Add some space between image and text */
     text-align: left; /* Align image to the left within its container */
 }
 
 .profile-image img {
     max-width: 100%;
-    height: auto; /* Maintain aspect ratio */
+    height: 100; /* Maintain aspect ratio */
     border-radius: 5px; /* Optional: Rounded corners */
 }
 
