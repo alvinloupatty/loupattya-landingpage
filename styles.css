@@ -74,14 +74,14 @@ body {
     justify-content: flex-start; /* Aligns content to the left */
     align-items: center; /* Vertically aligns items in the center */
     max-width: 50px; /* Adjust as needed */
-    margin: 50px auto;
+    margin: 800px auto;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
 }
 
 .profile-image {
-    width: 800px; /* Width of the image container */
+    width: 400px; /* Width of the image container */
     margin-right: 10px; /* Space between image and text */
     text-align: left;
 }
