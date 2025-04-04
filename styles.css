@@ -11,7 +11,7 @@ body, html {
 }
 
 a {
-    color: #007bff; /* Default link color */
+    color: #301934; 
     text-decoration: none;
 }
 
@@ -48,7 +48,7 @@ nav ul li a:hover {
 
 /* Home Page Styles */
 .home-page body, .home-page html {
-    background-color: #fff; /* White background for home */
+    background-color: #301934; /* White background for home */
 }
 
 .home-page .video-header {
