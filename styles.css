@@ -156,3 +156,61 @@ header nav a:hover {
 .container li {
   margin-bottom: 5px;
 }
+
+/*Content Page*/
+<style> /* Inline styles for simplicity in this example */
+        body {
+            background-color: #301934; /* Dark Purple */
+            color: white; /* Optional: Set default text color to white for better contrast */
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* Ensure the body takes up the full viewport height */
+            display: flex; /* Enable flexbox for centering */
+            flex-direction: column; /* Stack items vertically */
+            justify-content: center; /* Center vertically */
+            align-items: center; /* Center horizontally */
+            font-family: sans-serif; /* Optional: Set a default font */
+        }
+
+        .container {
+            text-align: center; /* Center text within the container */
+        }
+
+        nav {
+            margin-bottom: 20px; /* Add some space below the navigation */
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        img {
+            width: 80%; /* Keep the image responsive */
+            max-width: 600px; /* Optional: Set a maximum width */
+            height: auto;
+            display: block; /* Remove extra space below inline elements */
+            margin: 0 auto; /* Center the image horizontally */
+        }
+
+        h1 {
+            /* Optional: Style the heading if needed */
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="index.html">Resume</a>
+            <a href="about.html">About</a>
+            <a href="content.html">Content</a>
+        </nav>
+        <h1>My Content</h1>
+        <img src="seattle.jpg" alt="Seattle View">
+    </div>
+</body>
+</html>
