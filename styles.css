@@ -98,12 +98,12 @@ body {
 }
 
 .profile-text h1 {
-    font-size: 2.5em; /* Adjust as needed */
+    font-size: 1.5em; /* Adjust as needed */
     margin-bottom: 10px;
 }
 
 .profile-text h2 {
-    font-size: 1.5em; /* Adjust as needed */
+    font-size: 1.25em; /* Adjust as needed */
     margin-bottom: 20px;
 }
 
@@ -113,6 +113,6 @@ body {
 }
 
 .profile-text li {
-    font-size: 1.2em; /* Adjust as needed */
+    font-size: 1.1em; /* Adjust as needed */
     margin-bottom: 10px;
 }
