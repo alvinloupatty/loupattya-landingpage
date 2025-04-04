@@ -185,7 +185,6 @@ body, html {
 /* Content Page Styles */
 .content-page body, .content-page html {
     background-color: #301934; /* Dark Purple background for content page */
-    color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -198,7 +197,7 @@ body, html {
 }
 
 .content-page header nav ul li a:hover {
-    color: #301934;
+    color: #000000;
 }
 
 .content-page .container {
