@@ -1,21 +1,34 @@
 /* styles.css */
 
 /* Home Page Styles */
+/* styles.css */
+
+/* Global Styles (can be moved to the top if you have other styles) */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    overflow: hidden; /* Prevent scrollbars when video is fullscreen */
+}
+
+/* Home Page Styles */
 .home-page body, .home-page html {
-    background-color: #301934;
+    background-color: #301934; /* Dark purple fallback */
 }
 
 .home-page .video-header {
-    position: relative;
+    position: fixed; /* Make it cover the entire viewport */
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100vh;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
     text-align: center;
     color: white;
+    z-index: 0; /* Place video behind other content */
 }
 
 .home-page .background-video {
@@ -24,39 +37,54 @@
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    z-index: -1;
+    object-fit: cover; /* Ensure video covers the entire area */
 }
 
 .home-page .overlay-text {
-    font-size: 3rem;
+    font-size: 4rem; /* Make "Hello! I'm Alvin Loupatty" bigger */
     font-weight: bold;
     text-shadow:
-        1px 1px 0 #ccc,
-        2px 2px 0 #bbb,
-        3px 3px 0 #aaa,
-        4px 4px 0 #999,
-        5px 5px 0 #888;
-    margin-bottom: 20px;
+        2px 2px 0 #ccc,
+        4px 4px 0 #bbb,
+        6px 6px 0 #aaa,
+        8px 8px 0 #999,
+        10px 10px 0 #888; /* Stronger 3D effect */
+    margin-bottom: 40px; /* More space below the main text */
+    z-index: 1; /* Ensure text is on top of the video */
+}
+
+.home-page .overlay-nav {
+    position: absolute; /* Position the navigation */
+    top: 30px; /* Adjust distance from the top */
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally */
+    z-index: 1; /* Ensure navigation is on top of the video */
+}
+
+.home-page .overlay-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.home-page .overlay-nav ul li {
+    margin: 0 20px; /* More spacing between menu items */
 }
 
 .home-page .overlay-nav ul li a {
     color: white;
-    font-size: 1.2rem;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    font-size: 1.5rem; /* Make menu items bigger */
+    font-weight: bold; /* Make menu items bold */
+    text-decoration: none;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Stronger text shadow for better readability */
+    padding: 8px 15px; /* Add some padding around menu items */
+    border-radius: 5px; /* Optional: Add rounded corners to menu items */
+    transition: color 0.3s ease; /* Smooth hover transition */
 }
 
 .home-page .overlay-nav ul li a:hover {
-    text-decoration: none;
     color: #ddd;
-}
-
-.home-page .overlay-nav ul {
-    position: absolute;
-    bottom: 30px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
 }
 
 /* About Me Page Styles */
