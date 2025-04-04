@@ -74,7 +74,6 @@ body {
     justify-content: flex-start; /* Aligns content to the left */
     align-items: center; /* Vertically aligns items in the center */
     max-width: 1500px; /* Adjust as needed */
-    max-height: 750px; /* Adjust as needed */
     margin: 50px auto;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -88,8 +87,8 @@ body {
 }
 
 .profile-image img {
-    width: 500px; /* Width of the image */
-    height: 400px; /* Height of the image */
+    width: 750px; /* Width of the image */
+    height: 600px; /* Height of the image */
     object-fit: none;
 }
 
