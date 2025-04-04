@@ -66,45 +66,46 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4; /* Light background */
+    background-color: #f4f4f4;
 }
 
 .about-container {
     display: flex;
-    justify-content: flex-start; /* Align content to the left */
+    flex-direction: row;
     align-items: center;
     max-width: 800px;
     margin: 50px auto;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
+    gap: 20px;
 }
 
 .profile-image {
-    width: 300px; /* Medium width for the image container */
-    margin-right: 20px; /* Add some space between image and text */
+    flex-shrink: 0;
+    max-width: 200px;
 }
 
 .profile-image img {
-    width: 200px;
-    height: 200px;
-    object-fit: scale-down; /* or contain, fill, etc. */
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 .profile-text {
-    flex: 1; /* Allow text to take up remaining space */
-    padding: 20px;
-    /* text-align: right; You probably don't want to right-align the text content itself */
+    flex: 1;
+    padding: 0;
 }
 
 .profile-text h1 {
-    font-size: 2.5em; /* More reasonable size */
-    margin-right: 10px;
+    font-size: 2.5em;
+    margin-bottom: 10px;
 }
 
 .profile-text h2 {
-    font-size: 1.5em; /* More reasonable size */
-    margin-right: 20px;
+    font-size: 1.5em;
+    margin-bottom: 10px;
 }
 
 .profile-text ul {
@@ -113,7 +114,6 @@ body {
 }
 
 .profile-text li {
-    font-size: 1em; /* More reasonable size */
-    margin-right: 10px;
-    margin-bottom: 10px; /* added margin to make the list items have space */
+    font-size: 1em;
+    margin-bottom: 10px;
 }
