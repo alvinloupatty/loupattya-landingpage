@@ -98,12 +98,12 @@ body {
 }
 
 .profile-text h1 {
-    font-size: 200em;
+    font-size: 5em;
     margin-right: 10px;
 }
 
 .profile-text h2 {
-    font-size: 15em;
+    font-size: 3em;
     margin-right: 20px;
 }
 
@@ -113,7 +113,7 @@ body {
 }
 
 .profile-text li {
-    font-size: 10em; /* Adjust this value to make the list items bigger */
+    font-size: 1.5em; /* Adjust this value to make the list items bigger */
     margin-right: 10px;
     margin-bottom: 10px; /* added margin to make the list items have space */
 }
