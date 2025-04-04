@@ -87,8 +87,8 @@ body {
 }
 
 .profile-image img {
-    width: 300px; /* Width of the image */
-    height: 300px; /* Height of the image */
+    width: 10px; /* Width of the image */
+    height: 10px; /* Height of the image */
     object-fit: none;
 }
 
