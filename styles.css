@@ -5,6 +5,7 @@
 
 /* Global Styles (can be moved to the top if you have other styles) */
 body, html {
+    background-color: #301934;
     margin: 0;
     padding: 0;
     font-family: sans-serif;
