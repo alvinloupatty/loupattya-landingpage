@@ -154,34 +154,6 @@ body, html {
 
 .about-page .container ul li {
     margin-bottom: 10px;
-}
-
-/* About Page*/
-.profile-section {
-  display: flex; /* Enable Flexbox for the container */
-  align-items: center; /* Vertically align items in the center */
-}
-
-.profile-section img {
-  /* Adjust image styles as needed */
-  width: 150px; /* Example width */
-  height: auto;
-  margin-right: 20px; /* Add some space between the image and text */
-}
-
-.profile-section .description {
-  /* Adjust description styles as needed */
-  flex-grow: 1; /* Allow the description to take up remaining space */
-}
-
-/* Optional: Adjust styles for the heading, paragraph, and list within the description */
-.description h1 {
-  margin-top: 0; /* Remove default top margin */
-}
-
-.description ul {
-  padding-left: 20px; /* Add some indentation for the list */
-}
 
 /* Content Page Styles */
 .content-page body, .content-page html {
